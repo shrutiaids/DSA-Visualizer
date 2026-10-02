@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DSA Visualizer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>DSA VISUALIZER</h1>
+        <p>Stack & Queue Interactive Laboratory</p>
+    </header>
+
+    <main>
+
+        <section class="welcome">
+            <h2>Learn Data Structures Visually</h2>
+
+            <p>
+                Explore Stack and Queue through interactive
+                animations and step-by-step explanations.
+            </p>
+
+            <div class="buttons">
+                <button onclick="showStack()">Explore Stack</button>
+
+                <button onclick="showQueue()">Explore Queue</button>
+            </div>
+        </section>
+
+        <section id="visualizer">
+
+    <h2 id="structure-title">
+        Select a Data Structure
+    </h2>
+
+    <div id="structure-area">
+        Choose Stack or Queue to begin.
+    </div>
+
+</section>
+
+<section id="explanation-panel">
+
+    <h2>🧠 How Does It Work?</h2>
+
+    <div id="step-content">
+
+        <h3>Welcome to the Stack Visualizer</h3>
+
+        <p>
+            Select Stack above to see the operation
+            explained step-by-step.
+        </p>
+
+    </div>
+
+    <div class="step-buttons">
+
+        <button onclick="previousStep()">
+            ← Previous
+        </button>
+
+        <span id="step-number">
+            Step 0
+        </span>
+
+        <button onclick="nextStep()">
+            Next →
+        </button>
+
+        <button onclick="autoPlay()">
+            ▶ Auto Play
+        </button>
+
+    </div>
+
+</section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
